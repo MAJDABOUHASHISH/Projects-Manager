@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="708.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectDashboard">
+   <children>
+      <TableView fx:id="tableView" cacheShape="false" layoutX="101.0" layoutY="53.0" opacity="0.95" prefHeight="272.0" prefWidth="506.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="82.39997100830078" text="ID" />
+          <TableColumn fx:id="name" prefWidth="348.800048828125" text="NAME" />
+            <TableColumn fx:id="issues" prefWidth="75.99996948242188" text="ISSUES" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
